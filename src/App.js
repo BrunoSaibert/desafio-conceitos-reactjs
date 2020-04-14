@@ -16,7 +16,7 @@ function App() {
   async function handleAddRepository() {
     const response = await api.post("repositories", {
       title: `Repositório ${Date.now()}`,
-      url: "http:www.meulink.com",
+      url: "http://www.meulink.com",
       techs: ["ReactJS", "Node.js"],
     });
 
